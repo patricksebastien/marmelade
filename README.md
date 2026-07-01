@@ -85,7 +85,7 @@ Along the way, drop **Markers** anywhere on the timeline to annotate ideas you w
 
 Watch walkthroughs and jam extractions on the channel:
 
-👉 **[youtube.com/@Marmelade](https://www.youtube.com/channel/UC_Ho3QBqN1_b0mI3dojosLg)**
+👉 **[youtube.com/@Marmelade](https://youtu.be/QOaJkxnA8qI)**
 
 
 ---
