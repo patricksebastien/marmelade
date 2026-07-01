@@ -1,0 +1,53 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode + caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.cache/
+
+# Build artifacts
+build/
+dist/
+wheels/
+*.so
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Marmelade: do not commit binary audio fixtures (synthesized at test time)
+tests/fixtures/*.wav
+tests/fixtures/*.flac
+tests/fixtures/*.mp3
+
+# GSD (get-shit-done) — local tool state, planning artifacts & agent worktrees.
+# Kept local only, out of the tracked codebase, to keep the repo clean.
+.gsd/
+gsd-*
+.planning/
+# Claude Code / GSD local workspace: manifests, agent worktrees, settings.
+.claude/
