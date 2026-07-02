@@ -3186,8 +3186,7 @@ class MainWindow(QMainWindow):
             s.value("youtube/privacy_default", "private")
         )
         initial_title = _poem_generator.generate()
-        today_str = datetime.now().strftime("%Y-%m-%d")
-        initial_description = f"{today_str} — exported from Marmelade"
+        initial_description = ""
         keeper_range = self._format_time_range(target.start_sec, target.end_sec)
 
         dlg = UploadDialog(
@@ -3585,8 +3584,7 @@ class MainWindow(QMainWindow):
             initial_spacer_sec = 2.0
         initial_privacy = str(s.value("youtube/privacy_default", "private"))
         initial_title = _poem_generator.generate()
-        today_str = datetime.now().strftime("%Y-%m-%d")
-        initial_description = f"{today_str} bundle — exported from Marmelade"
+        initial_description = ""
         # Bundle seed for thumbnail — sha1 of the ordered ids so refreshes
         # are deterministic.
         import hashlib as _hashlib
