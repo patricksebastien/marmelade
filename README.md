@@ -2,7 +2,7 @@
 
 # Marmelade
 
-### Find the good parts of an 8‑hour jam — in minutes, not hours.
+### Find the good parts of an 8‑hour jam,  in minutes, not hours.
 
 **Marmelade** is a desktop, DAW‑style waveform viewer and clip extractor built for musicians
 who record long, unstructured jam sessions and need to locate, audition, master, and export
@@ -14,8 +14,8 @@ the musically valuable moments without scrubbing through every minute.
 
 <br/>
 
-<!-- Replace with your screenshot — see docs/screenshots/README.md -->
-<img src="docs/screenshots/overview.png" alt="Marmelade — main window" width="90%">
+<!-- Replace with your screenshot,  see docs/screenshots/README.md -->
+<img src="docs/screenshots/overview.png" alt="Marmelade,  main window" width="90%">
 
 </div>
 
@@ -23,14 +23,11 @@ the musically valuable moments without scrubbing through every minute.
 
 ## What Marmelade is *not*
 
-Marmelade is not a DAW, and it isn't a wave editor. There's no cutting, pasting, or
-rearranging — you can't stitch the good bits of different takes into one composite track.
-That's on purpose. The idea is to make peace with the fact that a jam is imperfect: find
-one honest slice of it, make it sound as good as it can, and share it.
+Marmelade is not a DAW, and it isn't a wave editor. There's no cutting, pasting, or rearranging, you can't stitch the good bits of different takes into one composite track.
+That's on purpose. The idea is to make peace with the fact that a jam is imperfect: find one honest slice of it, make it sound as good as it can, and share it.
 
-In a world where everything is polished to a mirror finish and producers pour countless
-hours into chasing perfection, maybe a single unpolished minute — no AI, no goals, no
-agenda — is exactly the thing that frees someone else to create without boundaries.
+In a world where everything is endlessly polished and producers pour countless
+hours into chasing perfection, maybe a single unpolished minute,  no AI, no goals, no agenda,  is the very thing that gives someone else permission to create without limits.
 
 ---
 
@@ -39,14 +36,14 @@ agenda — is exactly the thing that frees someone else to create without bounda
 Recording a live jam is easy. Finding the three great minutes buried in a six‑hour take is not.
 Marmelade turns that hunt into a fast, visual workflow:
 
-1. **Open** a long recording — up to ~8 hours per file. The waveform loads through a
+1. **Open** a long recording,  up to ~8 hours per file. The waveform loads through a
    memory‑safe downsampled proxy, so it stays smooth to pan and zoom no matter how big the file is.
-2. **Scan** it visually — switch between waveform render modes (amplitude, dB, energy, spectrogram)
+2. **Scan** it visually,  switch between waveform render modes (amplitude, dB, energy, spectrogram)
    to spot where the music actually happens.
 3. **Select** promising stretches and send them to your **Keepers** list.
-4. **Audition** each keeper — play from the start, middle, or end, with the same fades your export will use.
+4. **Audition** each keeper,  play from the start, middle, or end, with the same fades your export will use.
 5. **Master** each keeper with a full, configurable chain (EQ, compression, limiting, loudness, and more).
-6. **Export** clean, losslessly‑trimmed clips with automatic naming and fades — or upload straight to YouTube.
+6. **Export** clean, losslessly‑trimmed clips with automatic naming and fades,  or upload straight to YouTube.
 
 Along the way, drop **Markers** anywhere on the timeline to annotate ideas you want to come back to.
 
@@ -55,7 +52,7 @@ Along the way, drop **Markers** anywhere on the timeline to annotate ideas you w
 ## ✨ Features
 
 **Fast navigation on huge files**
-- Handles multi‑hour recordings (~8 h) without loading the raw audio into RAM — block‑based, downsampled proxy rendering
+- Handles multi‑hour recordings (~8 h) without loading the raw audio into RAM,  block‑based, downsampled proxy rendering
 - Smooth pan/zoom on millions of samples (PyQtGraph, not Matplotlib)
 - Click‑to‑seek, follow‑playhead mode, zoom‑to‑fit, and a large, always‑visible playback timecode
 
@@ -79,7 +76,7 @@ Along the way, drop **Markers** anywhere on the timeline to annotate ideas you w
 **Markers**
 - Drop a marker at the exact playhead position with the **M** key or the **＋** button
 - Editable text labels, jump‑and‑play from any marker, delete/rename
-- Rendered on the waveform as a labelled line — and saved to disk so they survive reopening the file
+- Rendered on the waveform as a labelled line,  and saved to disk so they survive reopening the file
 
 **Lossless extraction & sharing**
 - Export trimmed clips to **WAV** or **MP3** with automatic, descriptive naming and fades
@@ -104,7 +101,7 @@ Watch walkthroughs and jam extractions on the channel:
 
 ## 🚀 Install & run (from source)
 
-Marmelade is not distributed as a package — you run it from the source tree.
+Marmelade is not distributed as a package,  you run it from the source tree.
 
 ### Requirements
 
@@ -141,7 +138,7 @@ button, or the big empty‑state button. WAV, FLAC, and MP3 are supported (plus 
 ### 4. (Optional) YouTube upload credentials
 
 Everything except **YouTube upload** works out of the box. Uploading uses a Google OAuth
-"installed app" client, which is **not bundled** — no credentials are committed to this repo.
+"installed app" client, which is **not bundled**,  no credentials are committed to this repo.
 To enable it, create an OAuth client in your own [Google Cloud Console](https://console.cloud.google.com/)
 (type *Desktop app*, with the YouTube Data API v3 enabled) and export its ID/secret before launching:
 
@@ -167,7 +164,7 @@ With these unset, the app runs normally and the YouTube "Connect" flow simply re
 | Keep / trash a region | **K** (keeper) · **T** (trash) · **U** (unmark) |
 | Audition a keeper | Play buttons on each Keepers row (start / middle / end) |
 | Compare source vs. mastered | **A/B preview** toggle in the toolbar |
-| Drop a marker | **M** key, or **＋** in the Markers panel — then type its label |
+| Drop a marker | **M** key, or **＋** in the Markers panel,  then type its label |
 | Master a keeper | Open its **Mastering** chain and tweak stages, or pick a genre preset |
 | Export clips | **Export All Keepers**, or per‑keeper export |
 | Upload to YouTube | Share / upload from a keeper or as a bundle |
