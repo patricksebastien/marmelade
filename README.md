@@ -11,7 +11,6 @@ the musically valuable moments without scrubbing through every minute.
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Built with PySide6](https://img.shields.io/badge/GUI-PySide6%20%2B%20PyQtGraph-41CD52?logo=qt&logoColor=white)](https://doc.qt.io/qtforpython/)
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%C2%B7%20macOS%20%C2%B7%20Windows-lightgrey)]()
-[![YouTube](https://img.shields.io/badge/YouTube-Watch-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/channel/UC_Ho3QBqN1_b0mI3dojosLg)
 
 <br/>
 
@@ -19,6 +18,19 @@ the musically valuable moments without scrubbing through every minute.
 <img src="docs/screenshots/overview.png" alt="Marmelade — main window" width="90%">
 
 </div>
+
+---
+
+## What Marmelade is *not*
+
+Marmelade is not a DAW, and it isn't a wave editor. There's no cutting, pasting, or
+rearranging — you can't stitch the good bits of different takes into one composite track.
+That's on purpose. The idea is to make peace with the fact that a jam is imperfect: find
+one honest slice of it, make it sound as good as it can, and share it.
+
+In a world where everything is polished to a mirror finish and producers pour countless
+hours into chasing perfection, maybe a single unpolished minute — no AI, no goals, no
+agenda — is exactly the thing that frees someone else to create without boundaries.
 
 ---
 
